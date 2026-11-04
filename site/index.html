@@ -1,13 +1,183 @@
 <!DOCTYPE html>
-   <html lang="en">
-     <head>
-       <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-       <title>Bring Waffle House to Stillwater</title>
-       <link rel="stylesheet" href="styles.css">
-     </head>
-     <body>
-       <h1>Bring Waffle House to Stillwater</h1>
-       <p>Stillwater needs a Waffle House, and OSU students agree.</p>
-     </body>
-   </html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bring Waffle House to Stillwater</title>
+    <meta name="description" content="Why Stillwater, Oklahoma is ready for its first Waffle House.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Inter:wght@400;600;700&amp;display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <a class="brand" href="#top">Waffle House <span>Stillwater</span></a>
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#map">The Gap</a></li>
+                <li><a href="#where">Locations</a></li>
+                <li><a href="#sources">Sources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="hero-inner">
+                <p class="eyebrow">Stillwater, Oklahoma</p>
+                <h1>Stillwater is hungry.<br>Waffle House, we&#39;re ready.</h1>
+                <p class="lead">A young, fast growing college town with tens of thousands of students, packed game days, and zero Waffle Houses. Here is why that should change.</p>
+                <div class="hero-buttons">
+                    <a class="btn" href="#research">See the research</a>
+                    <a class="btn ghost" href="#where">Where it could go</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats" aria-label="Stillwater by the numbers">
+            <div class="stat">
+                <p class="num">49,269</p>
+                <p class="label">Stillwater residents</p>
+            </div>
+            <div class="stat">
+                <p class="num">23.9</p>
+                <p class="label">Median age</p>
+            </div>
+            <div class="stat">
+                <p class="num">37,411</p>
+                <p class="label">OSU System students, a record</p>
+            </div>
+            <div class="stat highlight">
+                <p class="num">0</p>
+                <p class="label">Waffle Houses in town</p>
+            </div>
+        </section>
+
+        <section id="research" class="section">
+            <p class="kicker">The market research</p>
+            <h2>Four reasons Stillwater makes sense</h2>
+
+            <article class="row">
+                <div class="row-text">
+                    <p class="step">01</p>
+                    <h3>The customers are already here</h3>
+                    <p>Stillwater is a young city, with a median age of just 23.9 and 49,269 residents. OSU enrolled 26,805 students across its Stillwater and Tulsa campuses in fall 2024, and nearly 5,200 freshmen started in Stillwater in fall 2025.</p>
+                    <p>The growth keeps coming. The OSU System hit a record 37,411 students in fall 2026. That is a large, steady crowd that eats out often and stays up late.</p>
+                </div>
+                <div class="row-visual big-number">
+                    <p class="bn-num">5,200</p>
+                    <p class="bn-label">new OSU Stillwater freshmen in a single year</p>
+                </div>
+            </article>
+
+            <article id="map" class="row reverse">
+                <div class="row-text">
+                    <p class="step">02</p>
+                    <h3>There is a gap on the map</h3>
+                    <p>Waffle House already operates in Oklahoma. The nearest stores are on West Memorial Road in north Oklahoma City and around Tulsa, including Owasso and Catoosa. Stillwater sits right between both markets with nothing of its own.</p>
+                    <p>Stillwater has other breakfast options, like IHOP on North Main Street, but nothing like a Waffle House counter that never closes. Since the brand already serves OKC and Tulsa, a Stillwater store slots right into a region it knows.</p>
+                </div>
+                <div class="row-visual map-card">
+                    <svg viewBox="0 0 400 300" role="img" aria-labelledby="map-title">
+                        <title id="map-title">Map showing Stillwater between Waffle House locations in Oklahoma City and Tulsa</title>
+                        <rect x="0" y="0" width="400" height="300" rx="16" fill="#fff3cc" />
+                        <path d="M70 230 Q180 120 200 120 Q260 115 330 90" stroke="#d9c79a" stroke-width="3" stroke-dasharray="8 8" fill="none" />
+                        <circle cx="70" cy="230" r="12" fill="#2b1d12" />
+                        <text x="70" y="262" text-anchor="middle" class="map-label">Oklahoma City</text>
+                        <text x="70" y="280" text-anchor="middle" class="map-sub">Waffle House</text>
+                        <circle cx="330" cy="90" r="12" fill="#2b1d12" />
+                        <text x="330" y="48" text-anchor="middle" class="map-label">Tulsa area</text>
+                        <text x="330" y="66" text-anchor="middle" class="map-sub">Waffle House</text>
+                        <circle cx="200" cy="120" r="26" fill="#ff7300" opacity="0.25" />
+                        <circle cx="200" cy="120" r="14" fill="#ff7300" />
+                        <text x="200" y="168" text-anchor="middle" class="map-label">Stillwater</text>
+                        <text x="200" y="186" text-anchor="middle" class="map-sub map-orange">None yet</text>
+                    </svg>
+                    <p class="map-note">Simplified map, not to scale</p>
+                </div>
+            </article>
+
+            <article class="row">
+                <div class="row-text">
+                    <p class="step">03</p>
+                    <h3>Built for 24/7 life and Oklahoma weather</h3>
+                    <p>Waffle House aims to stay open 24 hours a day, 365 days a year. It is so dependable that former FEMA administrator Craig Fugate created the Waffle House Index to measure how bad a disaster is. Green means a full menu, yellow means a limited menu, and red means even Waffle House had to close.</p>
+                    <p>Stillwater sits in the heart of Tornado Alley. A restaurant famous for staying open through storms would serve the whole community, not just the late night crowd.</p>
+                </div>
+                <figure class="row-visual photo">
+                    <img src="https://images.unsplash.com/photo-1594156596782-656c93e4d504?w=1200&amp;q=70&amp;auto=format&amp;fit=crop" alt="Dark storm clouds rolling across a blue sky" loading="lazy" width="1200" height="800">
+                </figure>
+            </article>
+
+            <article class="row reverse">
+                <div class="row-text">
+                    <p class="step">04</p>
+                    <h3>The price fits the market</h3>
+                    <p>The median household income in Stillwater is $43,700, which makes sense in a town full of students. Waffle House is known for affordable, filling meals, which is exactly what this market spends on. Students are also loyal, and a habit that starts freshman year can last all four years.</p>
+                </div>
+                <figure class="row-visual photo">
+                    <img src="https://images.unsplash.com/photo-1567529800588-f9366316b50b?w=1200&amp;q=70&amp;auto=format&amp;fit=crop" alt="A plate of golden waffles" loading="lazy" width="1200" height="800">
+                </figure>
+            </article>
+        </section>
+
+        <section class="banner">
+            <div class="banner-inner">
+                <p class="quote">&quot;If a Waffle House is closed because there&#39;s a disaster, it&#39;s bad.&quot;</p>
+                <p class="quote-by">Craig Fugate, former FEMA administrator</p>
+            </div>
+        </section>
+
+        <section id="where" class="section">
+            <p class="kicker">Site ideas</p>
+            <h2>Where it could go</h2>
+            <div class="cards">
+                <div class="card">
+                    <p class="card-icon">&#x1F393;</p>
+                    <h3>Near Campus</h3>
+                    <p>Walking distance for thousands of students. Perfect for late nights, finals week, and game days.</p>
+                </div>
+                <div class="card">
+                    <p class="card-icon">&#x1F6CD;</p>
+                    <h3>Perkins Road</h3>
+                    <p>Stillwater&#39;s main shopping corridor, with easy access for locals, families, and visitors.</p>
+                </div>
+                <div class="card">
+                    <p class="card-icon">&#x1F697;</p>
+                    <h3>Highway 51</h3>
+                    <p>Catches traffic heading in and out of town on football weekends and road trips.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="cta-inner">
+                <h2>Bring it home to Stillwater</h2>
+                <p>Share this page and let Waffle House know Stillwater is ready for its first location.</p>
+                <a class="btn dark" href="https://www.wafflehouse.com/">Visit Waffle House</a>
+            </div>
+        </section>
+
+        <section id="sources" class="section sources-section">
+            <h2>Sources</h2>
+            <ol class="sources">
+                <li><a href="https://datausa.io/profile/geo/stillwater-ok">Data USA, Stillwater OK profile</a></li>
+                <li><a href="https://news.okstate.edu/articles/communications/2024/osu_celebrates_record-breaking_enrollment_as_fall_semester_begins">OSU News, fall 2024 enrollment</a></li>
+                <li><a href="https://news.okstate.edu/articles/communications/2025/osu_system_breaks_all_time_enrollment_record_for_higher_education_in_oklahoma.html">OSU News, fall 2025 enrollment</a></li>
+                <li><a href="https://news.okstate.edu/articles/communications/2026/osu-enrollment-hits-record-high-full-time-and-online-enrollment">OSU News, fall 2026 enrollment</a></li>
+                <li><a href="https://www.travelok.com/ch/listings/view.profile/id.8363">TravelOK, Waffle House in Oklahoma City</a></li>
+                <li><a href="https://www.travelok.com/listings/view.profile/id.8362">TravelOK, Waffle House in Owasso</a></li>
+                <li><a href="https://www.katom.com/learning-center/the-waffle-house-index.html">KaTom, The Waffle House Index</a></li>
+                <li>Photos by Rachel Park, Xavier Crook, and Raychel Sanner on <a href="https://unsplash.com/">Unsplash</a></li>
+            </ol>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-brand">Waffle House <span>Stillwater</span></p>
+        <p class="small">An independent campaign. Not affiliated with Waffle House.</p>
+    </footer>
+</body>
+</html>
